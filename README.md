@@ -1,6 +1,6 @@
 KAI STRAKA 09.2026
 
-Complete flight code for an active-canard stabilized model rocket. Main control loop utilizes a quaternion-based PID loop and Kalman filter for IMU / barometer sensor fusion.
+Complete flight code for an active-canard stabilized model rocket.
 
 ## <brb>
 **SETUP**
