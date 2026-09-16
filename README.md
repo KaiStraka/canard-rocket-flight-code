@@ -23,7 +23,7 @@ For more information regarding the canard / avionics design I have linked a docu
 **PID Control Loop**
 
 The PID loop runs at 1000 Hz and is responsible for stabilizing the rocket along its target vector.
-It uses a quaternion-based logic to perform attitude calculations. The main control loop uses two separate PID loops, one for pitch orientation and another for yaw orientation. All PID related math is done in `pid_main.py`. PID values can be adjusted in `main.py`, and must be tuned according to rocket specifications.
+It uses a quaternion-based logic to perform attitude calculations. The main control loop uses two separate PID loops, one for pitch orientation and another for yaw orientation. All PID related math is done in `pid_main.py`. PID values can be adjusted in `main.py`, and must be tuned according to rocket specifications. Note this code is not exclusive to a canard-type rocket, the PID controller can be used anywhere applicable and the rest of the code applies to any dual axes servo-actuated system.
 
 ## <brb>
 **File Info**
