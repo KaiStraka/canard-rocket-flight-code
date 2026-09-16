@@ -42,7 +42,7 @@ Unmentioned files are responsible for background math functions and get called u
 Below are images of the avionics stack:
 
 <div align="center">
-  <img width="45%" alt="github rocket photo 1" src="https://github.com/user-attachments/assets/496d5693-46c3-4d48-aba2-83f5e85aed69" />
+  <img width="45%" alt="PHOTO front section stripped" src="https://github.com/user-attachments/assets/4a6ce05e-9a16-4fe7-84fa-1af3238ad814" />
   <p><em>Avionics Section</em></p>
 </div>
 
