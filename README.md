@@ -37,3 +37,16 @@ It uses a quaternion-based logic to perform attitude calculations. The main cont
 `servo_func.py`: includes all servo commands and setup.
 
 Unmentioned files are responsible for background math functions and get called upon by the files above.
+
+## <brb>
+Below are images of the avionics stack:
+
+<div align="center">
+  <img width="45%" alt="github rocket photo 1" src="https://github.com/user-attachments/assets/496d5693-46c3-4d48-aba2-83f5e85aed69" />
+  <p><em>Avionics Section</em></p>
+</div>
+
+<div align="center">
+  <img width="50%" height="375" alt="rio2 canard deflection" src="https://github.com/user-attachments/assets/cb2e0cc7-80f5-44ea-a6b8-0bc49cf8a250" />
+  <p><em>Canard Control Swipe</em></p>
+</div>
