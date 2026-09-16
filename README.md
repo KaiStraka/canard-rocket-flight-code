@@ -5,7 +5,7 @@ Complete flight code for an active-canard stabilized model rocket.
 ## <brb>
 **SETUP**
 
-The software is Micropython based and requires a suitable microcontroller. I used the RP2040 Zero. Other sensors used are the MPU6050 IMU and BMP180 barometer. Note the system has no guidance platforms.
+The software is Micropython based and requires a suitable microcontroller. I used the RP2040 Zero. Additional sensors used are the MPU6050 IMU and BMP180 barometer. Note the system has no guidance platforms.
 The control hardware uses two servos, each controlling a pair of canards along the pitch and yaw axes, respectively. This system allows for independent pitch and yaw control, but no roll control. 
 The `flight firmware` folder contains the entire code and logging files, installation is as simple as uploading all files from the folder to the microcontroller. `main.py` will run automatically upon controller power on, and the rest of the control loop is autonomous.
 
