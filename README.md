@@ -17,7 +17,7 @@ The `flight firmware` folder contains the entire code and logging files, install
 **Canard and LED info:** The canards have a gimbal range of 54 degrees in either direction. If the gimbal limit is exceeded, the canards will lock into their norm positions until power off. A solid green LED indicates IMU calibration, a flashing blue LED indicates free canard control, a flashing red LED indicates canard lockout. A solid blue or red LED indicates system crash. All LED functions are in `pixel_led.py`.
 For more information regarding the canard / avionics design I have linked a document [here](https://docs.google.com/document/d/1uXeId4Mfnxq4ZopFuHwwOyrJ0xR5f6XVzR0FfVpXOtQ/edit?usp=sharing).
 
-**Logging:** Due to memory limitations within the microcontroller, data logging is not continuous. Instead a preset altitude trigger (8 meters) will begin noting the maximum altitude achieved, and will log this altitude in `alt_data.txt` after 20 seconds of trigger activation. Upon canard lockout the altitude at the time of lockout will also be recorded, alongside the max alt into `alt_data.txt`.
+**Logging:** Due to memory limitations within the microcontroller, data logging is not continuous. Instead a preset altitude trigger (8 meters) will begin noting the maximum altitude achieved, and will log this value in `alt_data.txt`, twenty seconds after trigger activation. Upon canard lockout the altitude at the time of lockout will also be recorded, alongside the max alt into `alt_data.txt`.
 
 ## <brb>
 **PID Control Loop**
