@@ -43,7 +43,8 @@ Below are images of the avionics stack:
 
 <div align="center">
   <img width="45%" alt="PHOTO front section stripped" src="https://github.com/user-attachments/assets/4a6ce05e-9a16-4fe7-84fa-1af3238ad814" />
-  <p><em>Avionics Section</em></p>
+  <img width="45%" alt="rio2-40 pcb" src="https://github.com/user-attachments/assets/310950dd-b486-4ac5-a96d-ad3b59b0718b" />
+  <p><em>Avionics Section / Custom PCB</em></p>
 </div>
 
 <div align="center">
