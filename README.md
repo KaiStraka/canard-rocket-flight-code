@@ -51,3 +51,8 @@ Below are images of the avionics stack:
   <img width="50%" height="375" alt="rio2 canard deflection" src="https://github.com/user-attachments/assets/cb2e0cc7-80f5-44ea-a6b8-0bc49cf8a250" />
   <p><em>Canard Control Swipe</em></p>
 </div>
+
+<div align="center">
+  <img width="70%" alt="rio2 l1 frame git" src="https://github.com/user-attachments/assets/2a01c566-eb2e-4892-b690-c94e2859d931" />
+  <p><em>Maiden Launch</em></p>
+</div>
